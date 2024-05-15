@@ -10,7 +10,7 @@ if(isset($_GET['update'])) {
 }
  
 // 读取文件内容
-$file = file_get_contents('filelist.xia');
+$file = file_get_contents('filelist.txt');
  
 // 按行分割文件内容
 $lines = explode("\n", $file);
